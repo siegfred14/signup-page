@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=50%, initial-scale=1.0">
+    <title>Sign Up Page</title>
+</head>
+
+<body>
+    <div>
+        <h1>Global Dev Team Inc &#8482</h1>
+        <small><i>...the team of professionals</i></small>
+    </div>
+    <br>
+
+    <!-- Company Image -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRkGQubEUzFKEJybnN9fFQ4zrQxx8b0OXsXg&usqp=CAU"
+        alt="" width="30%">
+    <!-- The Sign Up Form -->
+
+    <form>
+        <h2>Create Your Account</h2>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <br>
+            <label for="first_name">First Name: </label>
+            <input type="text" id="first_name" required>
+            <br>
+            <br>
+
+            <label for="last_name">Last Name: </label>
+            <input type="text" id="last_name" required>
+            <br>
+            <br>
+
+            <label for="age">Date of Birth: </label>
+            <input type="date" id="age" required>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend><b>Contact Details</b></legend>
+            <br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="you@email.com" required>
+            <br>
+            <br>
+
+            <label for="phone">Phone No:</label>
+            <input type="number" id="phone" placeholder="+123 456 789">
+            <br>
+            <br>
+
+            <label>Location: &nbsp &nbsp </label>
+
+            <input type="radio" name="location">
+            <i>Nigeria &nbsp</i>
+
+            <input type="radio" name="location">
+            <i>Rest of Africa &nbsp</i>
+
+            <input type="radio" name="location">
+            <i>Outside Africa</i>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend><b>Login Details</b></legend>
+            <br>
+
+            <label for="username">Username: </label>
+            <input type="text" id="username" minlength="6" placeholder="min 6 chars">
+            <br>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" minlength="8" placeholder="case sensitive, min 8 chars">
+            <br>
+            <br>
+
+            <label for="confirm-password">Re-enter Password</label>
+            <input type="password" id="confirm-password" placeholder="Same as Password">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+
+        <div>
+            <input type="checkbox" id="confirm">
+            <p>"I have read the <a href="#">terms and conditions</a> and <a href="#">privacy policy</a>. I shall abide
+                by
+                the rules and regulations therein."</p>
+        </div>
+        <br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+</body>
+
+</html>
